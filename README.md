@@ -5,6 +5,8 @@ We provide on the Epidemium Wiki R packages and resources to analyze cancer mort
 - Cancer Mortality page:  [Link](http://wiki.epidemium.cc/wiki/Mortalit%C3%A9_des_cancers)
 - Cancer Incidences page: [Link](http://wiki.epidemium.cc/wiki/Cancer_incidences)
 
+[[MortalityFrance.png]]
+
 ## Repository content:
 
 - coreDataset2R.r:  Script to import and QC the Epidemium Core data set.
