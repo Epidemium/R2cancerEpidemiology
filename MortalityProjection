@@ -4,8 +4,8 @@
 # Date of creation: 3 mars 2016
 # Date of last modification: 3 mars 2016
 # Author: Seraya Maouche <seraya.maouche@iscb.org>
-# Project: EpidemiumDB (http://www.epidemium.cc)
-# Short Description: This script provides functionalities forcast mortality.
+# Project: Epidemium (http://www.epidemium.cc)
+# Short Description: This script provides functionalities to forcast mortality.
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #Install required package 
