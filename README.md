@@ -6,6 +6,7 @@ We provide on the Epidemium Wiki R packages and resources to analyze cancer mort
 - Cancer Incidences page: [Link](http://wiki.epidemium.cc/wiki/Cancer_incidences)
 
 [[images/BD4Cancer_mortalityFrance.png]]
+![My image](Epidemium/R2cancerEpidemiology/BD4Cancer_mortalityFrance.png)
 
 ## Repository content:
 
