@@ -1,4 +1,5 @@
-# R2cancerEpidemiology
+# RcancerEpidemio
+
 A series of R scripts to QC, explore, analyze, and visualize Epidemium Open Datasets (http://data.epidemium.cc/dataset).
 
 We provide on the Epidemium Wiki R packages and resources to analyze cancer mortality and incidences data:
