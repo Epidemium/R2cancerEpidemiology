@@ -11,6 +11,7 @@ We provide on the Epidemium Wiki R packages and resources to analyze cancer mort
 - coreDataset2R.r:  Script to import and QC the Epidemium Core data set.
 - MortalityProjection.R import mortality data from HMD and forecast mortality of french population.
 - plotCancerIncidences.R: plot cancers incidences data
+- HMD2R.R: Import demographic data from the Human Mortality Database (HMD)
 
 
 ![alt tag](https://github.com/Epidemium/R2cancerEpidemiology/blob/master/BD4Cancer_mortalityFrance.png)
