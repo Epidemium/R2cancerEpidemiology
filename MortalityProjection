@@ -1,1 +1,19 @@
 
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Script File: MortalityProjection.R  
+# Date of creation: 3 mars 2016
+# Date of last modification: 3 mars 2016
+# Author: Seraya Maouche <seraya.maouche@iscb.org>
+# Project: EpidemiumDB (http://www.epidemium.cc)
+# Short Description: This script provides functionalities forcast mortality.
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#Install required package 
+install.packages("demography")
+install.packages("lifecontingencies")
+install.packages("forecast")
+
+# Load required packages
+library(demography)
+library(forecast)
+library(lifecontingencies)
