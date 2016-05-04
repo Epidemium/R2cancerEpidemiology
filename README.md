@@ -2,13 +2,13 @@
 A series of R scripts to QC, explore, analyze, and visualize Epidemium Open Datasets (http://data.epidemium.cc/dataset).
 
 We provide on the Epidemium Wiki R packages and resources to analyze cancer mortality and incidences data:
-Cancer Mortality page:  [Link](http://wiki.epidemium.cc/wiki/Mortalit%C3%A9_des_cancers)
-Cancer Incidences page: [Link](http://wiki.epidemium.cc/wiki/Cancer_incidences)
+- Cancer Mortality page:  [Link](http://wiki.epidemium.cc/wiki/Mortalit%C3%A9_des_cancers)
+- Cancer Incidences page: [Link](http://wiki.epidemium.cc/wiki/Cancer_incidences)
 
 ## Repository content:
 
-### coreDataset2R.r:  Script to import and QC the Epidemium Core data set.
-### projection mortalité
+- coreDataset2R.r:  Script to import and QC the Epidemium Core data set.
+- projection mortalité
 
 
 Import mortality data (Epidemium Core dataset) into R
