@@ -1,11 +1,18 @@
- 
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Script File: plotCancerIncidences.r 
+# Date of creation: 3 mars 2016
+# Date of last modification: 3 mars 2016
+# Author: Seraya Maouche <seraya.maouche@iscb.org>
+# Project: EpidemiumDB (http://www.epidemium.cc)
+# Short Description: This script provides functionalities to plot Cancer incidences
+#                          in France
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 Homme = data.frame(Cancer =
   factor(c("Prostate", "Poumon", "Colon_et_Rectum", "Vessie", "Rein"),
     levels = c("Prostate", "Poumon", "Colon_et_Rectum", "Vessie", "Rein")),
   Cas = c(73609, 28033, 21524, 9283, 7358))
   
-
-
 Femme = data.frame(Cancer =
   factor(c("Sein", "Colon et Rectum", "Poumon", "Corps Utérin", "Lymphome non hodgkinien"),
     levels = c("Sein", "Colon et Rectum", "Poumon", "Corps Utérin", "Lymphome non hodgkinien")),
