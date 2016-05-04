@@ -1,15 +1,15 @@
 # R2cancerEpidemiology
-A series of R scripts to QC, explore, analyze, and visualize Epidemium Open Datasets
+A series of R scripts to QC, explore, analyze, and visualize Epidemium Open Datasets (http://data.epidemium.cc/dataset)
 
 Repository content:
 
-* core2R.r:  Script to import QC the Epidemium Core data set.
+* coreDataset2R.r:  Script to import QC the Epidemium Core data set.
 * 
 
 
 Import mortality data (Epidemium Core dataset) into R
 
-```
+```R
 datadir   <- "/home/common/data/" 
 filename  <-"mortalite_1950_2013.csv"
 setwd(datadir)
@@ -33,7 +33,7 @@ dim(dataFrance)
 
 Import cancer incidences data
 
-```
+```R
 setwd("..BD4Cancer/data")
 dat <- read.csv("incidence_1953_2007.csv", header=T, sep=",")
 header(dat)
@@ -45,4 +45,7 @@ datFrance <- dat[grep("^France", dat$registry), ]
 write.table(datFrance,"incidenceCanFrance.txt", sep = "\t")
 save(dat, file = "incidencesAllCoreDataset.RData")
 save(datFrance, file = "incidenceCancFrance.RData")
+
 ```
+
+
